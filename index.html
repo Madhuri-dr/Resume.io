@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhuri Potdar - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Madhuri Potdar</h1>
+        <div class="tabs">
+            <button class="tablink active" onclick="openTab(event, 'summary')">Professional Summary</button>
+            <button class="tablink" onclick="openTab(event, 'experience')">Work Experience</button>
+            <button class="tablink" onclick="openTab(event, 'education')">Education</button>
+            <button class="tablink" onclick="openTab(event, 'skills')">Research & Technical Skills</button>
+            <button class="tablink" onclick="openTab(event, 'publications')">Publications</button>
+        </div>
+        
+        <div id="summary" class="tabcontent active">
+            <p>An innovative and knowledgeable professional with 6+ years of teaching experience and research expertise in materials science...</p>
+        </div>
+        <div id="experience" class="tabcontent">
+            <p>Assistant Professor at MIT Academy of Engineering, Alandi, Pune (since Aug 2024)...</p>
+        </div>
+        <div id="education" class="tabcontent">
+            <p>Ph.D. in Physics from Kuvempu University, Shivamogga, Karnataka...</p>
+        </div>
+        <div id="skills" class="tabcontent">
+            <p>Proficient in electrochemical techniques, nanomaterial synthesis, and characterization...</p>
+        </div>
+        <div id="publications" class="tabcontent">
+            <p>Reduction of graphene oxide by Phyllanthus Emblica - A green approach...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+}
+.tablink {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+.tablink.active {
+    background: #007bff;
+    color: white;
+}
+.tabcontent {
+    display: none;
+    padding: 20px;
+}
+.tabcontent.active {
+    display: block;
+}
